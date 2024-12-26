@@ -1,0 +1,262 @@
+(footprint "Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Keystone 3512P, http://www.keyelco.com/product-pdf.cfm?p=1386")
+	(tags "fuse fuseholder automotive kfz clip shoe")
+	(property "Reference" "REF**"
+		(at 6 -3.3 0)
+		(layer "F.SilkS")
+		(uuid "9b52db44-d7de-4fdd-bf98-b91b7e70bfef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline"
+		(at 6.7 5.3 0)
+		(layer "F.Fab")
+		(uuid "f782812e-41f5-4fb0-b703-4162c93716f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.3 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "daff6e17-19a7-4290-8eeb-1076c3078e64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.3 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87056f96-c644-4f1a-89d7-c239e25063d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.3 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87f3d0b8-8365-44b9-8292-fd958ac2da88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.4 -1.006718)
+		(end -0.4 -0.1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5626770e-5555-4eb9-8d05-a39553c1986f")
+	)
+	(fp_line
+		(start -0.4 -1.006718)
+		(end 4.1 -1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a07d641-7a8c-47b2-b2cc-06298cd5c4c9")
+	)
+	(fp_line
+		(start 4.1 -0.953359)
+		(end 4.1 -0.046641)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0c42426-bdbb-4874-9d46-2884f75e0727")
+	)
+	(fp_line
+		(start 7.7 -1.006718)
+		(end 7.7 -0.1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "348b5a6b-ded9-441e-8e9a-f769bb2d043a")
+	)
+	(fp_line
+		(start 7.7 -1.006718)
+		(end 12.2 -1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fc455932-59c5-4d55-b052-823007af5c80")
+	)
+	(fp_line
+		(start 12.2 -0.953359)
+		(end 12.2 -0.046641)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "348ee75b-22d4-4acb-bf81-33ad2bdef822")
+	)
+	(fp_rect
+		(start -1.5 -2.4)
+		(end 13.5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "41a31a37-78aa-4d03-9b28-73a449d4b5d2")
+	)
+	(fp_arc
+		(start 1.199992 -0.1)
+		(mid 0.4 0.7)
+		(end -0.400008 -0.099984)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c935139-e4b5-4283-a9b3-24072fd47673")
+	)
+	(fp_arc
+		(start 4.099992 -0.1)
+		(mid 3.299998 0.700002)
+		(end 2.499992 -0.099984)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c502b12d-2403-47c6-8daf-16746adf7b8a")
+	)
+	(fp_arc
+		(start 9.299992 -0.1)
+		(mid 8.5 0.7)
+		(end 7.699992 -0.099984)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d68e5888-ab59-491d-ab30-9030d4c0cb9d")
+	)
+	(fp_arc
+		(start 12.199992 -0.1)
+		(mid 11.4 0.7)
+		(end 10.599992 -0.099984)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fd5df3f-9c45-49dd-9b4c-1d339342fd64")
+	)
+	(fp_rect
+		(start -1.7 -2.6)
+		(end 13.7 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5fd6e782-57ac-424f-8fcd-29a89f631ecf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.2 3.8 0)
+		(layer "F.Fab")
+		(uuid "8f5f6b78-7379-40ed-b159-1ace68a64faf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -0.1)
+		(size 7 3.5)
+		(drill oval 0.8 2
+			(offset 1.9 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "0bd9ab9f-cbe7-40de-a9ec-1ffbb47ecf06")
+	)
+	(pad "1" thru_hole roundrect
+		(at 3.8 -0.1)
+		(size 7 3.5)
+		(drill oval 0.8 2
+			(offset -1.9 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "35de7c74-c0fd-402f-89c6-21e104d392aa")
+	)
+	(pad "2" thru_hole roundrect
+		(at 8.2 0)
+		(size 7 3.5)
+		(drill oval 0.8 2
+			(offset 1.9 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "55555309-faa8-4455-80cc-5351721f1fb5")
+	)
+	(pad "2" thru_hole roundrect
+		(at 12 0)
+		(size 7 3.5)
+		(drill oval 0.8 2
+			(offset -1.9 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "9f4c628c-86af-414f-8663-bd4bf11829d9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Keystone_3512P_Inline_P23.62x7.27mm_D1.02x2.41x1.02x1.57mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
