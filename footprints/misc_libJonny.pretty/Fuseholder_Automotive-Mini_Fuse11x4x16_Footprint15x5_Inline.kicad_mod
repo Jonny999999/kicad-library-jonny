@@ -248,7 +248,7 @@
 		(roundrect_rratio 0.5)
 		(uuid "9f4c628c-86af-414f-8663-bd4bf11829d9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Keystone_3512P_Inline_P23.62x7.27mm_D1.02x2.41x1.02x1.57mm_Horizontal.wrl"
+	(model "../../3d-models/misc/Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline.step"
 		(offset
 			(xyz 0 0 0)
 		)

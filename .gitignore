@@ -1,1 +1,6 @@
+# kicad
 *.bak
+
+
+# FreeCAD
+*.FCBak
