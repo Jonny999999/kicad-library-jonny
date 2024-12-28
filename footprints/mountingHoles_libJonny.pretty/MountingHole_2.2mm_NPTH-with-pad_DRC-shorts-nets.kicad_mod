@@ -1,0 +1,115 @@
+(footprint "MountingHole_2.2mm_NPTH-with-pad_DRC-shorts-nets"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.2mm, M2, ISO14580")
+	(tags "mounting hole 2.2mm m2 iso14580")
+	(property "Reference" "H9"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "96d92b5e-46a5-4975-ac6d-0878a84e75a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MH"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "435c6b14-a7f4-4f9c-acd1-0e1f30194698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "custom-footprints:MountingHole_2.2mm_NPTH-with-pad"
+		(at -0.25 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b1ef572-6ae8-49db-b644-bc3b1ed33699")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d442c158-bb7a-4153-bf0d-479de310fbd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0 5.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5351872-b1d8-476a-b267-dcdbd9f36281")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d6234663-a5c9-45ac-802d-8b7b2d7a2dfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(uuid "93c69b32-e8ac-47a3-aa47-bd1dcf79a7fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 2.2)
+		(layers "F&B.Cu")
+		(clearance 0.1)
+		(uuid "d6692935-9ab8-447c-82dc-35ebeb643ae5")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 4.2 4.2)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(uuid "fbad14d7-cddb-4be3-b5ae-f2d405744b89")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 4.2 4.2)
+		(layers "B.Cu")
+		(zone_connect 2)
+		(uuid "d38b0917-2f8c-4dd4-9055-fa9d492150ae")
+	)
+)
