@@ -6,23 +6,25 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -11.176 48.006 0)
+		(property "Reference" "U1"
+			(at 23.7841 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "esp32-devkit-v1_30Pin"
-			(at -1.524 45.466 0)
+			(at 23.7841 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32_DevKit_V1_DOIT:esp32_devkit_v1_doit"
+		(property "Footprint" "devboards_libJonny:esp32-devkit-v1_30Pin"
 			(at 9.906 -15.494 0)
 			(effects
 				(font
@@ -49,7 +51,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "ESP32-WROOM-32 WiFi and Bluetooth microcontroller"
+		(property "ki_keywords" "ESP32-WROOM-32 WiFi and Bluetooth microcontroller devboard"
 			(at 0 0 0)
 			(effects
 				(font
