@@ -4,3 +4,7 @@
 
 # FreeCAD
 *.FCBak
+
+
+# Ignore separate repo cloned into subfolder (no submodule)
+3d-models/kicad-library-jonny_nonPublicModels

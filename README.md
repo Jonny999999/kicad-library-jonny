@@ -41,20 +41,45 @@ _Note: This list may not always be up-to-date or complete._
 
 ## Installation
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/Jonny999999/jonny-kicad-libs.git ~/git/kicad-library-jonny
-   ```
+#### 1. Clone the repository to your local machine:
+```bash
+# via SSH:
+git clone git@github.com:Jonny999999/kicad-library-jonny.git ~/git/kicad-library-jonny
+# or via HTTP:
+git clone https://github.com/Jonny999999/jonny-kicad-libs.git ~/git/kicad-library-jonny
+```
 
-2. Open KiCad (project manager) and add the library paths:
-   - **Footprints:** Go to `Preferences > Manage Footprint Libraries > Global Libraries tab` and click `Add existing (Folder icon)`. Navigate to the cloned repository's `footprints/` directory and select all `.pretty` folders (Ctrl+Click)  
-   - **Symbols:** Go to `Preferences > Manage Symbol Libraries > Global Libraries tab` and click `Add existing (Folder icon)`. Navigate to the `symbols/` directory and add the desired `.lib` files.
+#### 2. [Optional] Get the Non-Public 3D Models
+This project includes **3D models** collected from various sites for private use, those are stored in a separate private repository due to licensing restrictions.  
+If you have access to that repo, clone it into the `3d-models/` folder:
+```bash
+cd 3d-models/
+# via SSH:
+git clone git@github.com:Jonny999999/kicad-library-jonny_nonPublicModels.git
+# or via HTTP:
+git clone https://github.com/Jonny999999/kicad-library-jonny_nonPublicModels.git
+```
+Without this step, all custom footprints in the library still work but a few corresponding 3d-models may be missing, which are nice to have, but optional for the pcb design.
 
-3. Save changes.
+
+#### 3. Open KiCad (project manager) and add the library paths:
+- **Footprints:** 
+  - Go to `Preferences > Manage Footprint Libraries > Global Libraries tab`
+  - Click `Add existing (Folder icon)`. 
+  - Navigate to the cloned repository's `footprints/` directory
+  - Select all `.pretty` folders (Ctrl+Click to select multiple)  
+
+- **Symbols:** 
+  - Go to `Preferences > Manage Symbol Libraries > Global Libraries tab`
+  - click `Add existing (Folder icon)`. 
+  - Navigate to the `symbols/` directory 
+  - Add the desired `.lib` files.
+
+#### 4. Save changes by clicking `OK`
 
 <img src="images/install_footprint-libraries.jpg" alt="Example Symbol" width="60%">
 
-_Footprints installed_
+_Screenshot of Footprints installed_
 
 
 ---
@@ -66,7 +91,7 @@ _Footprints installed_
 - Symbols are accessible as usual in the schematic-editor in the "Add Symbols" tool menu.
 - Footprints can be assigned in the "Footprint Assignment Tool."
 - **Note:** Most footprints currently lack custom symbols. Use generic symbols (e.g., Fuse or Screw Terminal) from the KiCad library in schematic-editor and manually map them in the assignment tool (`Tools` -> `Assign Footprints`),
-- **Library Identification:** All custom libraries have `_libJonny` appended to explicitly distinguish them from standard libraries.
+- **Library Identification:** All custom libraries have `_libJonny` appended to explicitly distinguish them from standard libraries and to prevent any conflicts.
 
 
 ---
