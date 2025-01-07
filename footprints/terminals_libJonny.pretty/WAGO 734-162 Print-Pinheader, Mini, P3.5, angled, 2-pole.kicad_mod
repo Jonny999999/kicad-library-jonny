@@ -1,0 +1,162 @@
+(footprint "WAGO 734-162 Print-Pinheader, Mini, P3.5, angled, 2-pole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6dc14bdf-ecc5-40ff-a50e-8abd42383bcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WAGO 734-162 Print-Pinheader, Mini, P3.5, angled, 2-pole"
+		(at 9 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50b26567-c223-4790-b859-0af598207a87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "877c3506-ed90-43f1-847c-d051415b93ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f64a93cc-c27b-4699-a4b7-0cb6a7991177")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9168185a-c961-46e4-92b6-fa7617d2cba7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 8)
+		(end 0 5.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35b38eaa-361c-4f67-a905-71eec74e4b44")
+	)
+	(fp_line
+		(start 3.5 8)
+		(end 3.5 5.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1d58c63-b685-4eee-aa3b-7ca9eed66f14")
+	)
+	(fp_rect
+		(start -2.8 -1)
+		(end 6.3 9.3)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2b6efbf7-69a4-4da9-af42-cb2af2ae55eb")
+	)
+	(fp_rect
+		(start -1.9 5.5)
+		(end 5.4 9.3)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "034318e1-73d6-4339-b64b-b44c8b06fe1d")
+	)
+	(fp_rect
+		(start -3.5 -1.5)
+		(end 7 10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d12c9877-f04e-403d-9c45-f826a9c07833")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4fa21bca-afe7-40d0-8881-c6a1b018d0dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.8 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d15eb621-bcba-48ab-bb37-6da8bcf2d82e")
+	)
+	(pad "2" thru_hole oval
+		(at 3.5 0)
+		(size 2.8 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bee68793-bfbb-4908-b67a-c79cc14550a3")
+	)
+	(model "../../3d-models/kicad-library-jonny_nonPublicModels/terminals/Wago_734-162_1x02_P3.50mm_Horizontal.stp"
+		(offset
+			(xyz 6.6 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

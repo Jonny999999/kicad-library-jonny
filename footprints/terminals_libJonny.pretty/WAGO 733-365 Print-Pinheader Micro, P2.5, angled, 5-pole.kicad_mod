@@ -1,0 +1,217 @@
+(footprint "WAGO 733-365 Print-Pinheader Micro, P2.5, angled, 5-pole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.5 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6dc14bdf-ecc5-40ff-a50e-8abd42383bcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WAGO 733-365 Print-Pinheader Micro, P2.5, angled, 5-pole"
+		(at 9 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50b26567-c223-4790-b859-0af598207a87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "877c3506-ed90-43f1-847c-d051415b93ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f64a93cc-c27b-4699-a4b7-0cb6a7991177")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9168185a-c961-46e4-92b6-fa7617d2cba7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 2.5 8.25)
+		(end 2.5 5.75)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "381457a6-2812-4e8a-bdab-7acefa15b43f")
+	)
+	(fp_line
+		(start 5 8.25)
+		(end 5 5.75)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6dc8f725-024a-457e-ac00-2dd23a76d42b")
+	)
+	(fp_line
+		(start 7.5 8.25)
+		(end 7.5 5.75)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a8ff19c-640a-4612-90fd-57686eca25cc")
+	)
+	(fp_line
+		(start 10 8.25)
+		(end 10 5.75)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88fd2f6c-1d43-4eb3-9dba-34cf632d48fb")
+	)
+	(fp_line
+		(start 12.5 8.25)
+		(end 12.5 5.75)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11b6369a-ba00-4a66-8cac-5e71befe0266")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 15 9.5)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "540ff40d-f133-43a1-9f97-283c8f220c8f")
+	)
+	(fp_rect
+		(start 1.1 5.75)
+		(end 13.9 9.55)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dbc34783-df6a-4158-9fbd-a31c61ff4347")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 15.5 10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c7fa08c1-ff34-40bf-b5b9-3581e6a0d67d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4fa21bca-afe7-40d0-8881-c6a1b018d0dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 2.5 0.5)
+		(size 2 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be7bea35-2178-45b0-9b8b-cef6f0babf10")
+	)
+	(pad "2" thru_hole oval
+		(at 5 0.5)
+		(size 2 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a1fecde-ba87-4b11-972d-bddfba9969d9")
+	)
+	(pad "3" thru_hole oval
+		(at 7.5 0.5)
+		(size 2 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1f9ec58-aeb1-486d-a43b-b473382cc767")
+	)
+	(pad "4" thru_hole oval
+		(at 10 0.5)
+		(size 2 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64183966-e8c1-436f-a50e-416c53e59db1")
+	)
+	(pad "5" thru_hole oval
+		(at 12.5 0.5)
+		(size 2 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ea7d51b-34a6-4ebf-81d7-7342b71b4bdd")
+	)
+	(model "../../3d-models/kicad-library-jonny_nonPublicModels/terminals/WAGO_733-365 Print-Stiftleiste Micro RM 2.5 gewinkelt 5-pol.stp"
+		(offset
+			(xyz 15.1 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
