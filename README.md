@@ -19,10 +19,33 @@ _Note: This list may not always be up-to-date or complete._
 |                  |                                       |                                                 |    |    |
 | **Devboards**    | ESP32-DevKitV1 (30-pin)               | esp32-devkit-v1_30Pin                           | ![3d-model](images/3d-model_esp32-devkit-v1.jpg) | Custom symbol includes useful pin descriptions  ![ESP32-DevKitV1 Symbol](images/symbol_esp32-devkit-v1-30Pin.jpg) |
 |                  |                                       |                                                 |    |    |
+
+<br>
+
+| Category         | Component                             | Footprint Name                                  | 3D Model           | Details  |
+|------------------|---------------------------------------|-------------------------------------------------|--------------------|-----------|
 | **Terminals**    | Screw Terminal 5mm Pitch (2-pin)      | ScrewTerminal_P5mm_2Pin_FP10x8                  | ![3d-model](images/3d-model_ScrewTerminal_P5mm-2Pin.jpg) | Footprint and 3d-model optimized for stacking terminals (Silk layer aligns and includes the actual key)|
 |                  | Screw Terminal 5mm Pitch (3-pin)      | ScrewTerminal_P5mm_3Pin_FP15x8                  | ✅ | see above ^ |
 |                  | Screw Terminal 2.5mm Pitch (WIP)      | -                                               | -  | Work in progress.  |
-|                  |                                       |                                                 |    |   |
+|                  | Hartmann Terminal 54191080051D, P2.5, 0.75mm2, 8-pole | Hartmann Terminal 54191080051D, P2.5, 0.75mm2, 8-pole - |  |
+|                  | WAGO pinheader for connecting Terminals | WAGO 231-533 Print-Pinheader, Midi, P5.08, angled 3-pole  |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 713-1428 Pinheader double-deck MINI HD, P3.5, angled, 2x8-pole  |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 713-1430 Pinheader double-deck MINI HD, P3.5, angled, 2x10-pole |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 733-363 Print-Pinheader Micro, P2.5, angled 3-pole  |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 733-365 Print-Pinheader Micro, P2.5, angled, 5-pole |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 733-366 Print-Pinheader, Micro, P2.5, angled, 6-pole|  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 734-162 Print-Pinheader, Mini, P3.5, angled, 2-pole |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 734-163 Print-Pinheader, Mini, P3.5, angled, 3-pole |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 734-164 Print-Pinheader, Mini, P3.5, angled, 4-pole |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 734-168 Print-Pinheader, Mini, P3.5, angled, 8-pole |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 736-306 double-deck-terminal, P5, 2.50mm2, 2x6-pole |  (✅)  |   |
+|                  | WAGO pinheader for connecting Terminals | WAGO 736-308 double-deck-terminal, P5, 2.50mm2, 2x8-pole |  (✅)  |   |
+|                  |                                       |  |    |   |
+
+<br>
+
+| Category         | Component                             | Footprint Name                                  | 3D Model           | Details  |
+|------------------|---------------------------------------|-------------------------------------------------|--------------------|-----------|
 | **ICs**          | -                                     | -                                               | -  | - |
 |                  |                                       |                                                 |    |   |
 | **Misc**         | Fuseholder Automotive Fuse "Regular"  | Fuseholder_Automotive-Regular_Fuse19x5x18mm     | -  |   |
@@ -107,28 +130,64 @@ _Screenshot of Footprints installed_
 
 ```bash
 kicad-library-jonny
-├── 3d-models
-│   ├── devboards
-│   │   └── esp32-devkit-v1_30Pin.step
-│   ├── misc
-│   │   ├── Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline.FCStd
-│   │   └── Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline.step
-│   └── terminals
-│       ├── ScrewTerminal_P5mm_2Pin_FP10x8.step
-│       └── ScrewTerminal_P5mm_3Pin_FP15x8.step
-├── footprints
-│   ├── devboards_libJonny.pretty
-│   │   └── esp32-devkit-v1_30Pin.kicad_mod
-│   ├── misc_libJonny.pretty
-│   │   ├── Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline.kicad_mod
-│   │   └── Fuseholder_Automotive-Regular_Fuse19x5x18_Footprint21x8mm_Inline.kicad_mod
-│   ├── resistors_libJonny.pretty
-│   │   └── Cement-Power-R_L22_W10_P23_Horizontal.kicad_mod
-│   └── terminals_libJonny.pretty
-│       ├── ScrewTerminal_P5mm_2Pin_FP10x8.kicad_mod
-│       └── ScrewTerminal_P5mm_3Pin_FP15x8.kicad_mod
-└── symbols
-    └── devboards_libJonny.kicad_sym
+│   .gitignore
+│   LICENSE
+│   README.md
+│
+├───3d-models
+│   ├───devboards
+│   │       esp32-devkit-v1_30Pin.step
+│   │
+│   ├───kicad-library-jonny_nonPublicModels
+│   ├───misc
+│   │       Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline.FCStd
+│   │       Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline.step
+│   │
+│   └───terminals
+│           screw-terminals.FCStd
+│           ScrewTerminal_P5mm_2Pin_FP10x8.step
+│           ScrewTerminal_P5mm_3Pin_FP15x8.step
+│
+├───footprints
+│   ├───devboards_libJonny.pretty
+│   │       esp32-devkit-v1_30Pin.kicad_mod
+│   │
+│   ├───misc_libJonny.pretty
+│   │       Fuseholder_Automotive-Mini_Fuse11x4x16_Footprint15x5_Inline.kicad_mod
+│   │       Fuseholder_Automotive-Regular_Fuse19x5x18mm_Footprint21x8mm_Inline.kicad_mod
+│   │
+│   ├───mountingHoles_libJonny.pretty
+│   │       MountingHole_2.2mm_NPTH-with-pad_DRC-clearance-error.kicad_mod
+│   │       MountingHole_2.2mm_NPTH-with-pad_DRC-shorts-nets.kicad_mod
+│   │
+│   ├───resistors_libJonny.pretty
+│   │       Cement-Power-R_L22_W10_P23_Horizontal.kicad_mod
+│   │
+│   └───terminals_libJonny.pretty
+│           Hartmann Terminal 54191080051D, P2.5, 0.75mm2, 8-pole.kicad_mod
+│           ScrewTerminal_P5mm_2Pin_FP10x8.kicad_mod
+│           ScrewTerminal_P5mm_3Pin_FP15x8.kicad_mod
+│           WAGO 231-533 Print-Pinheader, Midi, P5.08, angled 3-pole.kicad_mod
+│           WAGO 713-1428 Pinheader double-deck MINI HD, P3.5, angled, 2x8-pole.kicad_mod
+│           WAGO 713-1430 Pinheader double-deck MINI HD, P3.5, angled, 2x10-pole.kicad_mod
+│           WAGO 733-363 Print-Pinheader Micro, P2.5, angled 3-pole.kicad_mod
+│           WAGO 733-365 Print-Pinheader Micro, P2.5, angled, 5-pole.kicad_mod
+│           WAGO 733-366 Print-Pinheader, Micro, P2.5, angled, 6-pole.kicad_mod
+│           WAGO 734-162 Print-Pinheader, Mini, P3.5, angled, 2-pole.kicad_mod
+│           WAGO 734-163 Print-Pinheader, Mini, P3.5, angled, 3-pole.kicad_mod
+│           WAGO 734-164 Print-Pinheader, Mini, P3.5, angled, 4-pole.kicad_mod
+│           WAGO 734-168 Print-Pinheader, Mini, P3.5, angled, 8-pole.kicad_mod
+│           WAGO 736-306 double-deck-terminal, P5, 2.50mm2, 2x6-pole.kicad_mod
+│           WAGO 736-308 double-deck-terminal, P5, 2.50mm2, 2x8-pole.kicad_mod
+│
+├───images
+│
+└───symbols
+        devboards_libJonny.kicad_sym
+        resistors_libJonny.bak
+        resistors_libJonny.kicad_sym
+        switches_libJonny.bak
+        switches_libJonny.kicad_sym
 ```
 
 ---
