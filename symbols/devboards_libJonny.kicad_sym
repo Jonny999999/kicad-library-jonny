@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "devboards_libJonny:esp32-devkit-v1_30Pin"
-			(at 9.906 -15.494 0)
+			(at 9.144 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.com/item/32864722159.html"
-			(at 12.7 -17.78 0)
+			(at 11.684 -19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,6 +81,18 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -8.89 -6.35) (xy -5.715 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(text "ESP32 DEVKITV1 30-pin"
 				(at 18.796 36.83 0)
 				(effects
@@ -89,6 +101,15 @@
 						(thickness 0.254)
 						(bold yes)
 					)
+				)
+			)
+			(text "IO2: must be LOW for flashing"
+				(at -5.588 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(pin input line
@@ -110,7 +131,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -10.16 0)
+				(at -15.24 -15.24 0)
 				(length 2.54)
 				(name "GPIO27/ADC2"
 					(effects
@@ -272,9 +293,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -2.54 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
-				(name "GPIO2/ADC2"
+				(name "GPIO2/ADC2/[OnboardBlueLED+10k_down]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -596,7 +617,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -5.08 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "GPIO25/ADC2"
 					(effects
@@ -614,7 +635,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -7.62 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "GPIO26/ADC2"
 					(effects
