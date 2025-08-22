@@ -1,0 +1,472 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "LTC6820_MSOP"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at -16.51 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTC6820_MSOP"
+			(at -16.002 -26.416 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -22.86 -210.185 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -22.86 -210.185 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "16QFN-LTC6820"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LTC6820_MSOP_0_1"
+			(rectangle
+				(start -16.51 24.13)
+				(end 16.51 -24.13)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LTC6820_MSOP_1_1"
+			(rectangle
+				(start -16.51 13.335)
+				(end -6.35 -1.905)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -16.51 -6.35)
+				(end 0.635 -22.86)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 6.985 18.415)
+				(end 16.51 5.715)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 6.985 -0.635)
+				(end 16.51 -16.51)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "MSTR: \n  Vdd=master, \n  GND=slave"
+				(at -10.16 -8.636 0)
+				(effects
+					(font
+						(size 0.75 0.75)
+						(color 0 0 194 1)
+					)
+					(justify left)
+				)
+			)
+			(text "SPI Interface"
+				(at -8.636 5.842 900)
+				(effects
+					(font
+						(size 1 1)
+						(color 72 72 72 1)
+					)
+				)
+			)
+			(text "SLOW: SCK<200kHz->Vdd,\n      SCK>200kHz->GND"
+				(at -7.62 -21.336 0)
+				(effects
+					(font
+						(size 0.75 0.75)
+						(color 0 0 194 1)
+					)
+				)
+			)
+			(text "SPI Config"
+				(at -1.27 -14.478 900)
+				(effects
+					(font
+						(size 1 1)
+						(color 72 72 72 1)
+					)
+				)
+			)
+			(text "Driver Config"
+				(at 8.89 12.192 900)
+				(effects
+					(font
+						(size 1 1)
+						(color 72 72 72 1)
+					)
+				)
+			)
+			(text "Isolated Interface\n(twisted pair)"
+				(at 10.16 -8.89 900)
+				(effects
+					(font
+						(size 1 1)
+						(color 72 72 72 1)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 20.32 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 11.43 0)
+				(length 5.08)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 7.62 0)
+				(length 5.08)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 3.81 0)
+				(length 5.08)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 0 0)
+				(length 5.08)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -7.62 0)
+				(length 5.08)
+				(name "MSTR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -11.43 0)
+				(length 5.08)
+				(name "POL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -15.24 0)
+				(length 5.08)
+				(name "PHA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -19.05 0)
+				(length 5.08)
+				(name "SLOW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 29.21 270)
+				(length 5.08)
+				(name "VDDS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -29.21 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 29.21 270)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 21.59 13.97 180)
+				(length 5.08)
+				(name "ICMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 21.59 10.16 180)
+				(length 5.08)
+				(name "IBIAS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 21.59 -6.35 180)
+				(length 5.08)
+				(name "IP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 21.59 -11.43 180)
+				(length 5.08)
+				(name "IM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
