@@ -1,0 +1,301 @@
+(footprint "ScrewTerminal_P3.5mm_2Pin_FP7x7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2-pin terminal block, pitch 5.00mm, stackable")
+	(tags "TerminalBlock ScrewTerminal screw terminal block connector")
+	(property "Reference" "REF**"
+		(at 2.7 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "58a768f0-cbed-4992-a8f5-68a9cb9221fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ScrewTerminal_P3.5mm_2Pin_FP7x7"
+		(at 2.8 4.8 0)
+		(layer "F.Fab")
+		(uuid "e6b5beef-cd67-490e-836f-44290a595873")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.de/ProductDetail/Amphenol-Anytek/TC0403620000G?qs=Mv7BduZupUjpPNfALDeijA%3D%3D"
+		(at 0 6.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcff6493-3183-47f7-b436-1b98ebcb2fea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c278eaba-34db-4ee9-a58e-b3528294f2f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.4 -1.7)
+		(end -2.4 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19d948a8-6184-4729-9885-42dae90e9cfc")
+	)
+	(fp_line
+		(start -2.4 -1.2)
+		(end -1.9 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d868938-c5e9-4568-ba62-cfd9d6bac4ec")
+	)
+	(fp_line
+		(start -1.9 -2.8)
+		(end -1.9 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ddea5319-6fdf-4429-b442-c4add40d3ed0")
+	)
+	(fp_line
+		(start -1.9 -1.8)
+		(end 5.5 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "934c314c-e419-4f66-b3f9-f0586c22eeab")
+	)
+	(fp_line
+		(start -1.9 -1.7)
+		(end -2.4 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6e4ecee4-85e8-42f8-9d55-b792f0687722")
+	)
+	(fp_line
+		(start -1.9 2.35)
+		(end 5.5 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d373e2fb-4006-4ae8-ba12-a7f7ee7ca840")
+	)
+	(fp_line
+		(start -0.85 1.1)
+		(end 0.9 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8bf305bc-383d-4e9c-b886-13a9f9c25d6e")
+	)
+	(fp_line
+		(start -0.85 2.35)
+		(end -0.85 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "795200ac-3f4f-41ab-b9ce-1353b0573313")
+	)
+	(fp_line
+		(start 0.9 1.1)
+		(end 0.9 2.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f7ca0d98-a102-4e99-b12d-4e0e1fbc4cca")
+	)
+	(fp_line
+		(start 2.75 1.05)
+		(end 4.5 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e241c05e-a04f-4634-8187-1ed0662e0370")
+	)
+	(fp_line
+		(start 2.75 2.3)
+		(end 2.75 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd38e4c4-62d0-429f-ae0e-38a0e85c745b")
+	)
+	(fp_line
+		(start 4.5 1.05)
+		(end 4.5 2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6314ac5-0cae-4ce8-805f-45ea10d0f5df")
+	)
+	(fp_line
+		(start 5 -1.7)
+		(end 5 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d4d6868-7781-4547-8873-1685c799a990")
+	)
+	(fp_line
+		(start 5 -1.2)
+		(end 5.5 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1935858-8b11-42d7-adf4-28b236593b24")
+	)
+	(fp_line
+		(start 5.5 -2.8)
+		(end -1.9 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5230309-d760-4ce8-a5c6-d9f43b0cb13b")
+	)
+	(fp_line
+		(start 5.5 -1.7)
+		(end 5 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "296c4152-182d-4a37-954e-29023e650ba8")
+	)
+	(fp_line
+		(start 5.5 2.4)
+		(end 5.5 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "531df3f7-3d00-46a7-9444-4165bb39c80d")
+	)
+	(fp_rect
+		(start -2.5 -3.6)
+		(end 6.1 3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "238300b6-9136-4fdc-add2-27ba824f56f3")
+	)
+	(fp_rect
+		(start -1.9 -3.1)
+		(end 5.5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "98a0f3dd-b709-40cf-a891-0ef6a2f7ba49")
+	)
+	(fp_text user "Footprint TODO: Measure Actual part, 3d model"
+		(at -7.1 3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f616cad-d924-47ca-a4a6-99ad2ee9ddf9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.6 -3.3 0)
+		(layer "F.Fab")
+		(uuid "107497c8-9ab4-407c-8c4a-38b42f271e19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed716211-f3bc-4748-85ae-29b0c1f147de")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "359ae08d-fb10-46a9-ada1-91305e0b3340")
+	)
+	(embedded_fonts no)
+	(model "../../3d-models/terminals/ScrewTerminal_P5mm_2Pin_FP10x8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
