@@ -51,45 +51,38 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
+	(fp_rect
 		(start -8.89 -15.24)
-		(end 8.89 -15.24)
+		(end -6.35 15.24)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "bed34254-4636-4940-81cc-3fb68e309e22")
+		(uuid "512e86d2-1ad8-4822-9caf-31c9f4a31d53")
 	)
-	(fp_line
-		(start -8.89 15.24)
-		(end -8.89 -15.24)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9e3a296b-a69b-44c2-840e-2862c6d8f5b3")
-	)
-	(fp_line
-		(start 8.89 -15.24)
+	(fp_rect
+		(start -8.89 -15.24)
 		(end 8.89 15.24)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type dash)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "e0d9c272-1bfe-44b7-b276-4e9d8875b49e")
+		(uuid "565485da-2e1c-40dd-ab37-fa4726f25812")
 	)
-	(fp_line
-		(start 8.89 15.24)
-		(end -8.89 15.24)
+	(fp_rect
+		(start 6.35 -15.24)
+		(end 8.89 15.24)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "2996caf8-3fd1-4686-be77-d5b4709b7e9c")
+		(uuid "3fb8232a-4e8e-4a5e-96f9-44e54f3e4b1d")
 	)
 	(fp_circle
 		(center -9.5 -13.97)
@@ -102,85 +95,60 @@
 		(layer "F.SilkS")
 		(uuid "47890a1b-49a9-44b9-a967-60fb1c36c6c5")
 	)
-	(fp_line
-		(start -9.14 -15.49)
-		(end -9.14 15.49)
+	(fp_rect
+		(start -9.144 -15.494)
+		(end -6.096 15.494)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ef69228e-3024-47a6-9642-a0ca4d1a3caf")
+		(uuid "9f11d36e-23cd-4aab-afcb-428b14e43ce2")
 	)
-	(fp_line
-		(start -9.14 15.49)
-		(end 9.14 15.49)
+	(fp_rect
+		(start -2.032 -14.732)
+		(end 2.032 -10.668)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d3a6dca6-c15f-484a-a5bc-d82ea6dc3e96")
+		(uuid "6e529ec1-9c04-4a17-a46f-7bda29f63140")
 	)
-	(fp_line
-		(start 9.14 -15.49)
-		(end -9.14 -15.49)
+	(fp_rect
+		(start -2.032 10.668)
+		(end 2.032 14.732)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8e74d3ef-910d-468c-b384-06304e7adca5")
+		(uuid "e276a27a-737b-45f1-aa30-e0613227925c")
 	)
-	(fp_line
-		(start 9.14 15.49)
-		(end 9.14 -15.49)
+	(fp_rect
+		(start 6.096 -15.494)
+		(end 9.144 15.494)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "86acc017-7ce9-483e-832f-8e17772786c1")
+		(uuid "8bb0169e-2b14-4592-a2a8-df5456f57541")
 	)
-	(fp_line
+	(fp_rect
 		(start -8.89 -15.24)
-		(end 8.89 -15.24)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d3ed1d43-084a-4a5e-af16-d46575f06a4e")
-	)
-	(fp_line
-		(start -8.89 15.24)
-		(end -8.89 -15.24)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d92bf942-e3d6-4d30-b16f-72265886789f")
-	)
-	(fp_line
-		(start -8.89 15.24)
 		(end 8.89 15.24)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type dash)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "f733c6b0-03fd-493a-8713-9eb980ac249e")
-	)
-	(fp_line
-		(start 8.89 -15.24)
-		(end 8.89 15.24)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e3b23c82-ab1a-404b-8ac6-ae18f1b96b22")
+		(uuid "96581ba3-8faf-460f-9a29-a72b9cb63334")
 	)
 	(fp_circle
 		(center -9.5 -13.97)
@@ -195,7 +163,7 @@
 	)
 	(pad "1" thru_hole rect
 		(at -7.62 -13.97)
-		(size 1.508 1.508)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -204,7 +172,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -7.62 -11.43)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -213,7 +181,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at -7.62 -8.89)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -222,7 +190,7 @@
 	)
 	(pad "4" thru_hole circle
 		(at -7.62 -6.35)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -231,7 +199,7 @@
 	)
 	(pad "5" thru_hole circle
 		(at -7.62 -3.81)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -240,7 +208,7 @@
 	)
 	(pad "6" thru_hole circle
 		(at -7.62 -1.27)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -249,7 +217,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at -7.62 1.27)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -258,7 +226,7 @@
 	)
 	(pad "8" thru_hole circle
 		(at -7.62 3.81)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -267,7 +235,7 @@
 	)
 	(pad "9" thru_hole circle
 		(at -7.62 6.35)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -276,7 +244,7 @@
 	)
 	(pad "10" thru_hole circle
 		(at -7.62 8.89)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -285,7 +253,7 @@
 	)
 	(pad "11" thru_hole circle
 		(at -7.62 11.43)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -294,7 +262,7 @@
 	)
 	(pad "12" thru_hole circle
 		(at -7.62 13.97)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -303,7 +271,7 @@
 	)
 	(pad "13" thru_hole circle
 		(at 7.62 13.97)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -312,7 +280,7 @@
 	)
 	(pad "14" thru_hole circle
 		(at 7.62 11.43)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -321,7 +289,7 @@
 	)
 	(pad "15" thru_hole circle
 		(at 7.62 8.89)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -330,7 +298,7 @@
 	)
 	(pad "16" thru_hole circle
 		(at 7.62 6.35)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -339,7 +307,7 @@
 	)
 	(pad "17" thru_hole circle
 		(at 7.62 3.81)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -348,7 +316,7 @@
 	)
 	(pad "18" thru_hole circle
 		(at 7.62 1.27)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -357,7 +325,7 @@
 	)
 	(pad "19" thru_hole circle
 		(at 7.62 -1.27)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -366,7 +334,7 @@
 	)
 	(pad "20" thru_hole circle
 		(at 7.62 -3.81)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -375,7 +343,7 @@
 	)
 	(pad "21" thru_hole circle
 		(at 7.62 -6.35)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -384,7 +352,7 @@
 	)
 	(pad "22" thru_hole circle
 		(at 7.62 -8.89)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -393,7 +361,7 @@
 	)
 	(pad "23" thru_hole circle
 		(at 7.62 -11.43)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -402,7 +370,7 @@
 	)
 	(pad "24" thru_hole circle
 		(at 7.62 -13.97)
-		(size 1.508 1.508)
+		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -614,13 +582,35 @@
 	(embedded_fonts no)
 	(model "../../3d-models/modules/TCA9548A_1-to-8_I2C_Multiplexer_Breakout_Board.step"
 		(offset
-			(xyz 0 0 2.5)
+			(xyz 0 0 5.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.step"
+		(offset
+			(xyz 7.62 13.95 3.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.step"
+		(offset
+			(xyz -7.62 13.95 3.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
 		)
 	)
 )
