@@ -1,7 +1,7 @@
 (footprint "ScrewTerminal_P5mm_2Pin_FP10x8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2-pin terminal block, pitch 5.00mm, stackable")
 	(tags "TerminalBlock ScrewTerminal screw terminal block connector")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c7f4d0af-65b1-4756-8ee8-5d84058e77da")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -244,7 +231,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "238300b6-9136-4fdc-add2-27ba824f56f3")
 	)
@@ -255,7 +242,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "98a0f3dd-b709-40cf-a891-0ef6a2f7ba49")
 	)
@@ -286,6 +273,7 @@
 		(remove_unused_layers no)
 		(uuid "359ae08d-fb10-46a9-ada1-91305e0b3340")
 	)
+	(embedded_fonts no)
 	(model "../../3d-models/terminals/ScrewTerminal_P5mm_2Pin_FP10x8.step"
 		(offset
 			(xyz 0 0 0)
