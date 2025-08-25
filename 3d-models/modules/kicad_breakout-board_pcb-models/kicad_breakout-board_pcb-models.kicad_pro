@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Adapter-Board_SOP8_to_DIP8.kicad_pro",
+    "filename": "kicad_breakout-board_pcb-models.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Adapter-Board_SOP8_to_DIP8.step",
+      "step": "../../AS5600_Magnetic-Encoder_Breakout_Board.step",
       "svg": "",
       "vrml": ""
     },

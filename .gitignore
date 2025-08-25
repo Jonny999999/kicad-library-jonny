@@ -1,5 +1,10 @@
 # kicad
 *.bak
+**/*-backups/*.zip
+\#auto_saved_files\#
+*.lck
+fp-info-cache
+*.kicad_prl
 
 
 # FreeCAD
