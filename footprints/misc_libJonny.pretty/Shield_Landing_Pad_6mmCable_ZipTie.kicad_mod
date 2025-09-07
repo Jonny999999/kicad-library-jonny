@@ -54,8 +54,8 @@
 		)
 	)
 	(fp_rect
-		(start -2.6 -7.2)
-		(end 2.6 -4.2)
+		(start -2.5 -7.2)
+		(end 2.5 -4.2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "536b240b-ab83-4928-8ef3-f0c2cfefe53f")
 	)
 	(fp_rect
-		(start -2.6 4.1)
-		(end 2.6 7.1)
+		(start -2.5 4.1)
+		(end 2.5 7.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -109,7 +109,7 @@
 	)
 	(fp_line
 		(start -5.4 10.4)
-		(end -4.6 10.4)
+		(end -4.4 10.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -118,8 +118,8 @@
 		(uuid "008116f9-e2a4-42c7-9ec4-83751f184d78")
 	)
 	(fp_line
-		(start -4.6 10.4)
-		(end -4.6 17.8)
+		(start -4.4 10.4)
+		(end -4.4 17.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -128,7 +128,7 @@
 		(uuid "92a48b05-22b1-401d-9169-7efed4cbe62e")
 	)
 	(fp_line
-		(start -4.6 17.8)
+		(start -4.4 17.8)
 		(end 4.6 17.8)
 		(stroke
 			(width 0.05)
@@ -491,8 +491,8 @@
 		(uuid "f7889ec4-267b-4dbd-8361-1914823caeb0")
 	)
 	(fp_rect
-		(start 3.1 -7.1)
-		(end 5.5 -3.8)
+		(start 3.1 -7.35)
+		(end 5.5 -4.05)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -502,8 +502,8 @@
 		(uuid "bbb9771e-7e4c-4fb2-844c-3d9c31d28fda")
 	)
 	(fp_rect
-		(start 3.1 3.85)
-		(end 5.5 7.15)
+		(start 3.1 3.95)
+		(end 5.5 7.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -549,7 +549,7 @@
 		(at -3.6 -5.5)
 		(size 2 6)
 		(drill oval 2 6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "F&B.Cu" "B.Mask")
 		(roundrect_rratio 0.5)
 		(uuid "21969d5f-53f8-4a63-a90b-21cb6c0b5852")
 	)
@@ -557,7 +557,7 @@
 		(at -3.6 5.5)
 		(size 2 6)
 		(drill oval 2 6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "F&B.Cu" "B.Mask")
 		(roundrect_rratio 0.5)
 		(uuid "6dd9b6cd-8bd3-44a9-b580-8e143d9e0405")
 	)
@@ -565,7 +565,7 @@
 		(at 3.6 -5.6)
 		(size 2 6)
 		(drill oval 2 6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "F&B.Cu" "B.Mask")
 		(roundrect_rratio 0.5)
 		(uuid "ddb6635c-5635-42f0-88eb-caa4c3ef2fc3")
 	)
@@ -573,7 +573,7 @@
 		(at 3.6 5.5)
 		(size 2 6)
 		(drill oval 2 6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "F&B.Cu" "B.Mask")
 		(roundrect_rratio 0.5)
 		(uuid "8b35cb3c-e341-416c-a141-480a83126f2b")
 	)
