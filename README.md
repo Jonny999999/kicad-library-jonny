@@ -29,7 +29,7 @@ _Note: This list may not always be up-to-date or complete._
 | Component | Footprint Name | Symbol | Footprint | 3D Model | Details |
 |-----------|----------------|--------|-----------|----------|---------|
 | Screw Terminal 5mm Pitch (2-pin) | ScrewTerminal_P5mm_2Pin_FP10x8 | - | ✅ | ![3d](images/3d-model_ScrewTerminal_P5mm-2Pin.jpg) | Optimized for stacking, silk layer aligns with real part and includes the key for stacking |
-| Screw Terminal 5mm Pitch (3-pin) | ScrewTerminal_P5mm_3Pin_FP15x8 | - | ✅ | ✅ | see above ^ |
+| Screw Terminal 5mm Pitch (3-pin) | ScrewTerminal_P5mm_3Pin_FP15x8 | - | ✅ | ![3d](images/3d-models/ScrewTerminal_P5mm_3Pin.jpg) | see above ^ |
 | Screw Terminal 3.5mm Pitch (2-pin) | ScrewTerminal_P3.5mm_2Pin_FP7x7 | - | ✅ | ![model](images/3d-models/ScrewTerminal_P3.5mm-2Pin.jpg) | |
 | Screw Terminal 3.5mm Pitch (3-pin) (WIP) | - | - | - | - | Work in progress |
 | Hartmann Terminal 54191080051D, P2.5, 0.75mm2, 8-pole | Hartmann Terminal 54191080051D... | - | ✅ | - | |
@@ -82,6 +82,7 @@ _Note: This list may not always be up-to-date or complete._
 |-----------|----------------|--------|-----------|----------|---------|
 | Cement 5W Power Resistor | Cement-Power-R_L22_W10_P23_Horizontal | - | ✅ | - | Minimal pitch footprint for horizontal placement |
 | R_Pack04-Parallel-SIL | R_Pack04-Parallel-SIL | ![symbol](images/symbols/R_Pack04-Parallel-SIL.jpg) | - | - | - |
+| Piher trimmer | Potentiometer_Piher_PT-10-V10_Vertical | - | ✅ | ![model](images/3d-models/Potentiometer_Piher_PT-10-V10_Vertical.jpg) | - |
 
 
 ### Mounting Holes
