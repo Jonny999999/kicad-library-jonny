@@ -1,0 +1,378 @@
+(footprint "HX711_24-bit-ADC_weight-scale-module_green"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "24-bit Analog-to-Digital Converter (ADC) for Weight Scales green Breakout board")
+	(property "Reference" "REF**"
+		(at 0 -9.5 0)
+		(layer "F.SilkS")
+		(uuid "18674f4d-0fe5-4555-ac54-7876cf680cc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HX711_24-bit-ADC_weight-scale-module_green"
+		(at 2.1 9.5 0)
+		(layer "F.Fab")
+		(uuid "16780436-306c-485e-b6d1-d44f900066b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.amazon.de/HX711-Gewicht-Dual-Channel-Pr%C3%A4zision-W%C3%A4gezelle-Arduino/dp/B01MZBBIO2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83ee39ab-35f9-4702-81d7-4eaa871eadfe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b909ad6c-21d3-4d1e-9257-ae10fb3c9657")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -11.83 -7.8)
+		(end 11.77 8)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "516def8e-c4ab-489a-beea-4d826b71a754")
+	)
+	(fp_rect
+		(start -11.43 -7.62)
+		(end -8.89 7.82)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1297e773-dfaa-459d-83df-68f212a93ecb")
+	)
+	(fp_rect
+		(start -0.19 -6.31)
+		(end 3.81 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d5482732-404f-41db-8c41-64f239def46b")
+	)
+	(fp_rect
+		(start 8.92 -5.23)
+		(end 11.46 5.13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6b4d0ad3-5b84-462e-98f2-93c57f723179")
+	)
+	(fp_rect
+		(start -11.708 -7.852)
+		(end -8.636 8.128)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1efe81c0-7978-4f8d-aa81-f4d45453d2db")
+	)
+	(fp_rect
+		(start 8.636 -5.53)
+		(end 11.708 5.37)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6542e6b1-21f4-4c61-b4c3-b982ac739bed")
+	)
+	(fp_text user "DT"
+		(at 6.985 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "464a7ae1-c7a9-4048-b82c-d447a094e8c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "HX711"
+		(at 1.81 -1.885 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5a4a1067-570b-424d-a9c5-3c9bcc10cb78")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "A-"
+		(at -7.62 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5c38fee6-b93a-4a6b-99dc-26c324c77eb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at 6.985 3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6a48b48f-49c8-4899-af97-72128e2dda75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 6.985 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72da030e-d489-4b01-a24f-f92323b3dbd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "B+"
+		(at -7.62 6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8bf45b40-57a3-4ad2-baae-ce6b114fbb58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "E-"
+		(at -7.62 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f3d5b84-c4db-48b0-8649-ebee37ac36fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "E+"
+		(at -7.62 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a0856508-34f4-4fcb-bed5-e6aa90a8b8d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "A+"
+		(at -7.62 1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad2284bf-3909-4666-ab33-aaf18ce1e075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SCK"
+		(at 6.985 1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bdc8d1a8-21e4-4f1c-b8de-c3db9cd49373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "B-"
+		(at -7.62 3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dbd4dbd2-4eb4-4a78-9b42-4319110e7f38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -10.16 -6.35)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fdc213b9-128b-41c0-8bf6-47565a47862e")
+	)
+	(pad "2" thru_hole circle
+		(at -10.16 -3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cc7e360e-1bfd-4b6b-bf9b-b816b1b37fcc")
+	)
+	(pad "3" thru_hole circle
+		(at -10.16 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "48cc762e-fffa-450f-a2b0-1a6a12f76ee1")
+	)
+	(pad "4" thru_hole circle
+		(at -10.16 1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "78886966-8e30-4a28-a23e-f254daa25788")
+	)
+	(pad "5" thru_hole circle
+		(at -10.16 3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "781e7992-a1e3-4a97-ac75-2f672973ba8d")
+	)
+	(pad "6" thru_hole circle
+		(at -10.16 6.35)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "959e4da1-c9ef-4578-a9f6-5f62b348335b")
+	)
+	(pad "7" thru_hole circle
+		(at 10.16 3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "20608600-ef8e-4e22-aae8-60de9cf1bff6")
+	)
+	(pad "8" thru_hole circle
+		(at 10.16 1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "04e10b59-15b6-40bb-903a-9a013a37790e")
+	)
+	(pad "9" thru_hole circle
+		(at 10.16 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5bad4a5a-eeab-4879-9f8b-35caa0f044dc")
+	)
+	(pad "10" thru_hole circle
+		(at 10.16 -3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "34a3cf8c-a932-4a72-8354-66d574f174b7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+		(hide yes)
+		(offset
+			(xyz -6.8 2.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(hide yes)
+		(offset
+			(xyz 6.8 3.9 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "../../3d-models/modules/HX711_24-bit-ADC_weight-scale-module_green.step"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
