@@ -1,7 +1,7 @@
 (footprint "esp32-devkit-v1_30Pin"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ESPWROOM32, ESP32, 30 GPIOs version")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c41602db-4334-4be4-af2d-b8ebb77bcf5a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -464,7 +452,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "9089dfb1-47de-466c-ba1c-7269a59ad8b8")
 	)
@@ -475,7 +463,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "656bc711-24b5-4616-9848-bf67fd3e4273")
 	)
@@ -486,7 +474,7 @@
 			(width 1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "eab435ac-2ffa-4017-9dea-835717b402b9")
 	)
@@ -497,7 +485,7 @@
 			(width 0.8)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b5532ee4-b512-440a-bb89-3f3afb70c12f")
 	)
@@ -508,7 +496,7 @@
 			(width 1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "81c726d9-f95a-472e-a6b3-b6ab6a8bced2")
 	)
@@ -519,7 +507,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "059227a5-950d-4c0b-b052-e766f76eabfe")
 	)
@@ -530,9 +518,31 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "dcb4a977-0c0e-45fe-a4f1-3c38fb5ddbd1")
+	)
+	(fp_rect
+		(start -13.97 -1.27)
+		(end -11.43 36.83)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1215fc0c-4d65-4e62-8547-c1d31bde5416")
+	)
+	(fp_rect
+		(start 11.43 -1.27)
+		(end 13.97 36.83)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "57bddddd-0a83-4b32-9ed8-b2aba537ccd8")
 	)
 	(fp_text user "Boot"
 		(at 7.62 39.68 0)
@@ -807,6 +817,7 @@
 		(remove_unused_layers no)
 		(uuid "692df2e4-5556-4fef-8575-7a1e0d8acb00")
 	)
+	(embedded_fonts no)
 	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P-B.wrl"
 		(offset
 			(xyz 7.5 -43 4)
