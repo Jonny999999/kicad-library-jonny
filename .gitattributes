@@ -1,0 +1,18 @@
+# Common CAD / 3D formats — treat as binary and don't diff
+*.step  binary -diff
+*.stp   binary -diff
+*.iges  binary -diff
+*.igs   binary -diff
+*.stl   binary -diff
+*.wrl   binary -diff
+*.3mf   binary -diff
+*.obj   binary -diff
+
+# FreeCAD project files
+*.FCStd  binary -diff
+*.FCBak  binary -diff
+
+# KiCad 3D models
+*.wrl   binary -diff
+*.stp   binary -diff
+*.step  binary -diff
