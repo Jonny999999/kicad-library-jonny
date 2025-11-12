@@ -17,6 +17,7 @@ _Note: This list may not always be up-to-date or complete._
 | Component | Footprint Name | Symbol | Footprint | 3D Model | Details |
 |-----------|----------------|--------|-----------|----------|---------|
 | -         | -              | -      | -         | -        | - |
+| Relay LEG3, LEG5, LEG12 | Relay_LEG-xxF | ![symbol](images/symbols/Relay_LEG-xxF.jpg) | ![footprint](images/footprints/Relay_LEG-xxF.jpg) | ✅ |
 
 
 ### Devboards
@@ -61,6 +62,7 @@ _Note: This list may not always be up-to-date or complete._
 | SOP8 → DIP8 Adapter | Adapter-Board_SOP8_to_DIP8 | ✅ | ✅ | ✅ | ![photo](images/photos/Adapter-Board_SOP8_to_DIP8.jpg) |
 | ICM-426XX 6-Axis Gyro Breakout | ICM-426XX_6-Axis-Gyro_Breakout_Board | ✅ | ✅ | ✅ | ![photo](images/photos/ICM-426XX_6-Axis-Gyro_Breakout_Board.jpg) |
 | TCA9548A 1-to-8 I²C Multiplexer Breakout | TCA9548A_1-to-8_I2C_Multiplexer_Breakout_Board | ✅ | ✅ | ✅ | ![photo](images/photos/TCA9548A_1-to-8_I2C_Multiplexer_Breakout_Board.jpg) |
+| HX711_24-but-ADC Breakout | HX711_24-bit-ADC_weight-scale-module_green | ![symbol](images/symbols/HX711_24-bit-ADC_weight-scale-module_green.jpg)  | ![footprint](images/footprints/HX711_24-bit-ADC_weight-scale-module_green.jpg)  | ![3d-model](images/3d-models/HX711_24-bit-ADC_weight-scale-module_green.jpg)  | ![photo](images/photos/HX711_24-bit-ADC_weight-scale-module_green.png) |
 
 
 ### Misc
