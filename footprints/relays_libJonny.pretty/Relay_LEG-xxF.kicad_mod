@@ -17,8 +17,8 @@
 			)
 		)
 	)
-	(property "Value" "Dual Type / universal capacitor footprint"
-		(at -2.5 10.1 180)
+	(property "Value" "Relay_LEG-xxF"
+		(at 8.25 0.05 270)
 		(layer "F.Fab")
 		(uuid "74c62192-398b-41b8-96a9-c9acc80d8c7e")
 		(effects
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "Populate either polarized Elko or Foil capacitor"
+	(property "Description" "Relay LEG-3F,  LEG-5F,  LEG-12F"
 		(at 0.4 -6.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -76,7 +76,7 @@
 		(uuid "216dce75-0ad0-4424-9961-7eaacec5ca08")
 	)
 	(fp_line
-		(start -3 -6)
+		(start -4 -6)
 		(end -1 -6)
 		(stroke
 			(width 0.1)
@@ -117,7 +117,7 @@
 	)
 	(fp_line
 		(start -1 6)
-		(end -3 6)
+		(end -4 6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -167,8 +167,19 @@
 		(layer "F.CrtYd")
 		(uuid "fcb4d655-7ca5-4690-b966-25d522afebfb")
 	)
+	(fp_rect
+		(start -9.5 -7.5)
+		(end 9.5 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0d493c16-ab67-442b-85b7-fbf53ec29c66")
+	)
 	(fp_text user "NO"
-		(at 3.8 6.6 0)
+		(at 1.9 6.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "70db21b5-14b4-4930-b84f-9ca37852288d")
@@ -181,7 +192,7 @@
 		)
 	)
 	(fp_text user "NC"
-		(at 3.9 -5.4 0)
+		(at 2 -5.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "71937cd1-c7f9-44c4-85d1-d71d3379a61d")
@@ -209,7 +220,7 @@
 	(pad "11" thru_hole circle
 		(at -8.35 0)
 		(size 2.8 2.8)
-		(drill 1.2)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "48278271-03ab-4d1f-8a9f-83e50473fd69")
@@ -232,7 +243,7 @@
 	)
 	(pad "A1" thru_hole circle
 		(at -6.35 -6)
-		(size 1.8 1.8)
+		(size 2 2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -240,7 +251,7 @@
 	)
 	(pad "A2" thru_hole circle
 		(at -6.35 6)
-		(size 1.8 1.8)
+		(size 2 2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
